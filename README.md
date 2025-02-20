@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness
+
+This repository demonstrates a common issue in Node.js applications: server unresponsiveness due to long-running, CPU-bound operations within the request handler.  The `server.js` file contains a simple HTTP server that performs a computationally intensive task in response to each request, causing the server to freeze.  The `serverSolution.js` file provides a solution using asynchronous operations and worker threads to prevent blocking.
